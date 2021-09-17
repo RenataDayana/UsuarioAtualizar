@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+.imgFundo{
+  background-image: url(https://imgur.com/82eZKxw.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 80vh;
+
+}
+body {
+    background: #e8cbc0;
+    background: -webkit-linear-gradient(to right, #e8cbc0, #636fa4);
+    background: linear-gradient(to right, #e8cbc0, #636fa4);
+    min-height: 100vh;
+  }
+  
+  .social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #8e44ad;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #f1c40f;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: purple;
+  }
+  /* .jumbotron{
+    background-color: white ;
+  } */
+  h1 , p{
+      color: white;
+  }
+  
+
+a{
+    font-family: 'Poppins', sans-serif;
+    color: #fff0e9;
+
+}
+p{ font-family: 'open Sans' , sans-serif;
+     color : #9d9f9e;   
+    font-size: 1.2rem;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 3.3rem;
+}
+h1 span{
+
+    color:  #f99c80;
+}
+h3{
+    font-family: 'open Sans' , sans-serif;
+    font-size: 1.2rem;
+    color : white;
+
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #000002;
+    font-size: 1.8rem;
+}
+h5{
+    font-family: 'Poppins', sans-serif;
+    color: #000002;
+    font-size: 1.1rem;
+}
+.centralizar-links{
+    margin : 0 auto;
+}
+.cornavbar{
+    background-color: #8e44ad;
+}
+.botaonavbar{
+    background-color: #f1c40f ;
+    color : #fff0e9;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.botaonavbar:hover{
+  background-color: #f39c12                   
+
+;
+}
+.botaocadastrar{
+    background: transparent;
+    padding: 10px 20px;
+    border-radius:8px;
+    border-color: #fff0e9;
+    color: #fff0e9;
+    font-weight: 500;
+}
+.botaocadastrar:hover{
+    background-color: #f39c12;
+    border: none;
+}
+
+.botaopesquisar{
+    background: transparent;
+    padding: 6px 11px;
+    border-color: #fff0e9;
+    color: #fff0e9;
+    font-weight: 500;
+
+}
+
+.botaopesquisar:hover{
+    background-color: #f39c12;
+    border: none;
+}
+
+.imgFundo{
+    background-image: url(https://imgur.com/82eZKxw.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+
+}
+.fundoBranco{
+    background-color: white;
+    background-size: 100%;
+    height: 80vh;
+}
+
+.letraEscura{
+    color: black;
+}
+.chamadabox{
+    padding-top: 5rem;
+   
+}
+.features{
+    background-color: #fff0e9;
+    color: #daaa9d;
+    padding :5px 15px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+.fototexto{
+    margin-top: 8rem;
+}
+.rowsfototexto{
+   margin-bottom: 8rem;
+}
+.espacotexto{
+    padding-top: 4rem;
+}
+ .cadastro{
+     color: #000002;
+     font-family: 'open Sans' , sans-serif;
+ }
+ .cadastro2{
+     color: #8e44ad;
+     font-family: 'open Sans' , sans-serif;
+ }
+ .cadastro2:hover{
+     color: #f1c40f;
+ }
+ .colorbtn{
+     background-color:#f1c40f;
+     color:white;
+     font-family: 'open Sans' , sans-serif;
+ }
+ .colorbtn:hover{
+    background-color: #f39c12;
+ }
+ .bgsobrenos{
+   background-color: white;
+ }
+ .colortext{
+   color: black;
+ }
+ /* .cadastrobranco{
+   color: white;
+   font-family: 'open Sans' , sans-serif;
+  
+
+ } */

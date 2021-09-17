@@ -1,0 +1,84 @@
+<nav class="navbar navbar-expand-lg navbar-dark container-fluid cornavbar sticky-top">
+    <a class="navbar-brand" href="#">
+        <img src="https://imgur.com/1Cp6mD5.png
+        " height="50" alt="Logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse text-center" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto centralizar-links">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" routerLink='/sobre-nos'>Formigueiro</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href='#' routerLink='/inicio'>Posts</a>
+            </li>
+        </ul>
+        <nav class="navbar navbar-light">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control" type="search" placeholder="Busque por algo" aria-label="Search">
+              <button class="btn botaopesquisar" type="submit"><img src="https://i.imgur.com/sgGYLM2.png
+                " height="20px" width="20px" alt="pesquisar"></button>
+            </form>
+          </nav>
+          
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-6" id="img-bg"></div>
+
+        <div class="col-md-6 mt-5 mb-5 container">
+            <div class="row d-flex justify-content-center ">
+                <div class="col-md-10">
+                    <h1 class="text-center cadastro">Cadastro</h1>
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input [(ngModel)]="usuario.nome" class="form-control" type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="usuario">Usuário</label>
+                        <input [(ngModel)]="usuario.usuario"  class="form-control" type="email" name="usuario" id="usuario" placeholder="Seu Usuário">
+                    </div>
+                    <div class="form-group">
+                        <label for="foto">Link da Foto</label>
+                        <input [(ngModel)]="usuario.foto" class="form-control" type="text" name="foto" id="foto" placeholder="Link da sua foto">
+                    </div>
+                    <div class="form-group">
+                        <label for="senha">Senha</label>
+                        <input (input)='confirmSenha($event)' class="form-control" type="password" name="senha" id="senha" placeholder="Sua Senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmSenha">Confirmar Senha</label>
+                        <input [(ngModel)]="usuario.senha" class="form-control" type="password" name="confirmSenha" id="confirmSenha"
+                            placeholder="Sua Senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="tipo">Tipo de Usuário</label>
+                        <select (change)='tipoUser($event)' class="form-control" name="tipo" id="tipo">
+                            <option value="">Selecione um tipo de Usuário</option>
+                            <option value="colaborador">Colaborador</option>
+                            <option value="beneficiario">Beneficiário</option>
+                            <option value="Instituição">Instituição</option>
+                        </select>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button type="submit" class="btn colorbtn2 mr-4 " routerLink = '/entrar'>Cancelar</button>
+                        <button type="submit" class="btn colorbtn" (click)='cadastrar()'>Cadastrar</button>
+                    </div>
+                    <hr>
+                    <p class="text-center m-4 cadastro">Já possui login?<a class="linkverdecadastro cadastro2" routerLink="/entrar"> Entre aqui!</a> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

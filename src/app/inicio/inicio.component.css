@@ -1,0 +1,44 @@
+.corPost{
+    background-color: #f1f2f6;
+}
+    .botaonavbar{
+        background-color: #f1c40f ;
+        color : #fff0e9;
+        font-weight: 500;
+        padding: 10px 20px;
+        border-radius: 8px;
+    }
+    .botaonavbar:hover{
+        background-color: #f39c12;
+        border: none;
+    }
+        
+    .botaocadastrar{
+        background: transparent;
+        padding: 10px 20px;
+        border-radius:8px;
+        border-color: #8e44ad;
+        color: #8e44ad;
+        font-weight: 500;
+    }
+    .botaocadastrar:hover{
+        background-color: #8e44ad;
+        color:#fff0e9;
+        border: none;
+
+}
+.h1-54{
+    font-size: 48px;
+    color: black;
+}
+.h5-18{
+    font-size: 18px;
+    color: black;
+}
+.imgFundo{
+    background-image: url(https://imgur.com/82eZKxw.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 80vh;
+
+}
